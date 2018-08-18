@@ -1,0 +1,72 @@
+
+.page-title{
+  width: 100%;
+  background: url(/assets/abou-bg.jpg) no-repeat center center;
+  background-size: cover;
+  border-bottom: 2px solid #772b90;
+  margin-bottom: 64px;
+}
+.pagetitle-icon img{
+  float: left;
+  margin: 39px 13px 9px 0;
+}
+.pagetitle-icon h1 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 33px;
+  margin-bottom: 30px;
+  margin-top: 37px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.breadcrumbs {
+  color: #fff;
+    margin: 41px 0 0 0; 
+}
+.breadcrumbs a{
+  color:#fda527;
+  text-decoration: none; 
+}
+h3{
+  color:#373737;
+  text-transform:uppercase;  
+}
+p{
+  color: #757575;
+  font-size: 17px;
+  margin: 0 0 15px 0;
+  line-height: 25px;  
+}
+
+  h4 {
+    color: #772b90;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 12px 0;
+    padding: 0;
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .breadcrumbs {
+    color: #fff;
+    margin: 0px 0 37px 0;
+  }
+  .pagetitle-icon h1 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 800;
+    line-height: 33px;
+    margin-bottom: 16px;
+    margin-top: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .pagetitle-icon img {
+    float: left;
+    margin: 23px 13px 13px 0;
+  }
+  
+  }
